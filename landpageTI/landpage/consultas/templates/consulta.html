@@ -1,0 +1,603 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css"
+  rel="stylesheet"
+/>
+
+  <title>CIBERTECH</title>
+  <link rel="icon" type="image/x-icon" href="{% static 'favicon.ico' %}">
+  
+</head>
+<body>
+
+    <!-- Navbar -->
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" style="width:100%;">
+  <!-- Container wrapper -->
+  <div class="container-fluid d-flex justify-content-between">
+    <!-- Left: Logo -->
+    <a class="navbar-brand mt-2 mt-lg-0" href="#inicio">
+      {% load static %}
+      <img src="{% static 'CIBERTECH.png' %}" alt="CIBERTECH"/>
+    </a>
+
+    <!-- Toggle button for mobile view -->
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      style="color: rgb(255, 255, 255);"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Right: Links -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link-color" href="#acerca_de_nosotros">Acerca de Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-color" href="#productos">Catálogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link-color" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Container wrapper -->
+
+  <style>
+    .nav-link-color {
+      color: #ffde59;
+      font-size: 1.6rem;
+      padding-left: 25px;
+    }
+    .nav-link-color:active {
+      color: rgba(233, 218, 3, 0.842);
+    }
+    .nav-link-color:hover {
+      color: #f0a32e;
+    }
+    .navbar-brand img {
+      width: auto;
+      height: auto;
+      max-width: 250px; /* Ajusta según el tamaño deseado */
+      max-height: 250px; /* Ajusta según el tamaño deseado */
+    }
+  </style>
+</nav>
+<!-- Navbar -->
+
+</style>
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <!-- <a class="link-secondary me-3" href="#">
+        <i class="fas fa-shopping-cart"></i>
+      </a>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+ <section class="anuncios">
+    <!-- Background image -->
+<div
+class="bg-image"
+style="
+  background-image: url('https://img.freepik.com/vector-gratis/estilo-fluido-telon-fondo-multicolor-vibrante-presentacion-moderna_1017-53600.jpg?t=st=1726794669~exp=1726798269~hmac=1ccfaa6f392b84aaba34e9902a21c3b0b94a2cc2a2915d9da066d87a65f81061&w=826');
+  height: 8vh;
+  width: 100%;
+"
+>
+<div class="mask" style="background-color: rgba(178, 60, 253, 0.6);">
+  <div class="d-flex justify-content-center align-items-center h-100">
+    <h1 class="text-white mb-0">DESCUENTOS HASTA DEL 50%</h1>
+  </div>
+</div>
+</div>
+
+<section class="mask-acerca-de-nosotros " id="mask-acerca-de-nosotros" style="background-color: rgba(0, 0, 0, 0.6); width: 100%; height: 100vh;">
+  <!-- Background Image -->
+    <!-- Mask -->
+
+    <!-- Content -->
+    <div class="container d-flex align-items-center justify-content-center h-100" id="inicio">
+      
+      <div class="text-center text-white" style="position: static; z-index: 2;">
+        <h1 class="display-4" >CIBERTECH</h1>
+        <p class="lead">Equipado para ganar, diseñado para gamers</p>
+        <a class="btn btn-outline-light btn-lg" href="#contacto" role="button">Contáctanos</a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Section Content -->
+  <section class="acerca_de_nosotros" id="acerca_de_nosotros">
+    <div class="mask-acerca-de-nosotros" style="background-color: rgba(0, 0, 0, 0.6); width: 100%; height: 100vh;">
+
+      <!-- Mask -->
+    
+  
+      <!-- Content -->
+      <div class="container d-flex align-items-center justify-content-center h-100">
+        <div class="text-center text-white" style="position: static; z-index: 2;">
+          <h2 class="display-4">¿QUIENES SOMOS?</h2>
+          <p class="texto-quienes-somos">En <strong>CIBERTECH</strong>, somos más que una tienda. Somos una comunidad dedicada a ofrecer a los gamers lo mejor en equipos, accesorios y tecnología para una experiencia de juego inigualable.</p>
+          <p class="texto-quienes-somos">Desde PCs de alto rendimiento hasta periféricos y sillas gamer, tenemos todo lo que necesitas para llevar tu experiencia al siguiente nivel. Nuestro compromiso es brindarte productos de la más alta calidad y un servicio personalizado que se ajuste a tus necesidades.</p>
+        </div>
+      </div>
+    </div>
+</section>
+  
+<Style>
+  .text-muted{
+    color: rgb(255, 255, 255) !important;}
+  .fw-bold{
+    color:rgb(255, 255, 255) !important;
+  }
+  .list-group-item{
+    color:rgb(255, 255, 255);
+  }
+
+  .texto-quienes-somos,.clead {
+    font-size: 1.5rem;
+  }
+  .display-4 {
+  font-size: 6rem;
+  }
+</Style>
+</section>
+<!-- Background image -->
+
+
+<section name="productos" class="productos" id="productos">
+  <div
+  class="bg-image"
+  style="
+    background-image: url('https://img.freepik.com/vector-gratis/estilo-fluido-telon-fondo-multicolor-vibrante-presentacion-moderna_1017-53600.jpg?t=st=1726794669~exp=1726798269~hmac=1ccfaa6f392b84aaba34e9902a21c3b0b94a2cc2a2915d9da066d87a65f81061&w=826');
+    height: 8vh;
+    width: 100%;
+
+    border-radius: 5%;
+  "
+  >
+  <div class="mask" style="background-color: rgba(178, 60, 253, 0.6);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <h1 class="text-white mb-0">NUESTROS PRODUCTOS</h1>
+    </div>
+  </div>
+  </div>
+
+  <div class="producto">
+    <div class="card" id="pc-gamer">
+      <img src="https://www.gamerinfo.com.br/wp-content/uploads/2023/08/pc-gamer-vale-a-pena.jpg" class="card-img-top"  alt="PC Gamer" />
+      <div class="card-body">
+        <h5 class="card-title">PC Gamer Ultima Generacion</h5>
+        <p class="card-text">Conquista el mundo digital con nuestras PCs gamer de última generación, diseñadas para ofrecer un rendimiento asombroso y gráficos impresionantes, garantizando la mejor experiencia de juego.</p>
+        <a href="https://www.amazon.com/s?k=cpu+gaming+pc" target="_blank" class="btn btn-primary">Ver Catálogo</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="producto">
+    <div class="card" id="reparar-computadora">
+      <img src="https://img.freepik.com/free-photo/pc-technology-computer-repair-shop-engineer-performing-laptop-maintenance-hardware-developer-fixing-electronic-components_253401-1584.jpg?size=626&ext=jpg" class="card-img-top" alt="Renovar Computadora"/>
+      <div class="card-body" >
+        <h5 class="card-title">Reparar Computadora</h5>
+        <p class="card-text">Devuelve la vida a tu computadora con nuestro servicio de renovación, que incluye actualizaciones y reparaciones completas para optimizar tu equipo y mantenerte en el juego.</p>
+        <a href="https://www.amazon.com/s?k=gaming+pc+components" target="_blank" class="btn btn-primary">Reparar Ahora</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="producto">
+    <div class="card" id="controles-gamer">
+      <img src="https://dlcdnwebimgs.asus.com/files/media/861F940F-9C0A-420B-897B-C515713E67DB/v1/img/video/tutorial.jpg" class="card-img-top" alt="Controles Gamer"/>
+      <div class="card-body">
+        <h5 class="card-title">Controles Gamer</h5>
+        <p class="card-text" >Mejora tu experiencia con nuestros controles gamer de 72 horas de batería, diseñados para un agarre cómodo y respuesta rápida, para que domines cada partida con precisión.</p>
+        <a href="https://www.amazon.com/s?k=Mandos+gamer+para+pc" target="_blank" class="btn btn-primary" style="color:#000000">Renovar Controles</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="producto">
+    <div class="card" id="silla">
+      <img src="https://computadoresenbogota.com/market/wp-content/uploads/2024/07/SILLA-GAMER-RAZER-ISKUR-X-ERGONOMIC-2.jpg" class="card-img-top" alt="Silla Gamer"/>
+      <div class="card-body">
+        <h5 class="card-title" >Silla Gamer</h5>
+        <p class="card-text">Experimenta comodidad suprema con nuestras sillas gamer ergonómicas, ajustables y con materiales de alta calidad, perfectas para largas horas de juego con estilo.</p>
+        <a href="#contacto" class="btn btn-primary">VER MÁS</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp4575307.jpg');
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Una columna para cada card */
+    gap: 1rem; /* Espacio entre las cards */
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.producto {
+    width: 80%; /* Ancho del 80% */
+    margin: 10px auto; /* Margen superior e inferior, centrado */
+
+}
+
+.section-title {
+    text-align: left;
+    font-size: 5em;
+    color: white;
+    width: 80%; /* Igual ancho que las tarjetas */
+    margin-left: auto;
+    margin-right: auto; /* Centra el h2 */
+    color:#000000;
+}
+.card {
+    display: grid; /* Usar grid para alinear imagen y texto */
+    grid-template-columns: 1fr 1fr; /* Ambas columnas ocupan el 50% */
+    background-color: #413f41;
+    color: white;
+    padding: 1rem;
+    transition: transform 0.3s; 
+    background: linear-gradient(to right, #570152, #991092, #b139b1,#c961c9);
+    opacity: 0; /* Comienza oculto */
+    transform: translateY(20px); /* Desplazado hacia abajo */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Transiciones suaves */
+}
+
+.card.visible {
+    opacity: 1; /* Hace visible */
+    transform: translateY(0); /* Regresa a la posición original */
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%; /* Ajustar a 100% dentro del grid */
+    height: 100%; /* Altura al 100% para ocupar todo el espacio */
+    object-fit: cover; /* Mantener la relación de aspecto y cubrir el área */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column; /* Alinear texto y botón verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+.card-title {
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+    text-align: left;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.btn-primary {
+    background-color: rgba(233, 218, 3, 0.842);
+    border-color: #f1f1ee;
+    box-shadow: none !important;
+}
+
+.btn-primary:hover {
+    background-color: rgba(233, 218, 3, 0.747);
+    color: rgb(0, 0, 0); /* Cambia el color del texto si es necesario */
+
+    }
+.btn-primary:visited {
+    color: rgb(0, 0, 0); /* Cambia el color del texto cuando el enlace ha sido visitado */
+    background-color: rgba(233, 218, 3, 0.842); /* Mantén el fondo negro si lo deseas */
+}
+.btn-primary:active {
+    color: rgb(0, 0, 0); /* Cambia el color del texto cuando se clickea el enlace */
+    background-color: rgba(233, 218, 3, 0.842) !important; /* Mantén el fondo negro si lo deseas */
+}
+.navbar {
+    background-color: #1a1919e1 !important; /* Cambia el color de fondo para mayor contraste */
+    padding: 15px 20px; /* Aumenta el padding superior e inferior */
+}
+.nav-link:hover{
+  color: rgb(0, 0, 0);
+}
+.nav-link {
+    font-size: 1.2rem; /* Aumenta el tamaño de la fuente */
+    margin-right: 20px; /* Espacio entre los enlaces */
+    color: rgb(7, 7, 7);
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Aumenta el tamaño del logo o nombre de la marca */
+}
+
+</style>
+
+<section name="contacto" class="contacto" id="contacto"> 
+  <div class="row" style="background-color: #1a1919e1; width: 99.6vw;">   
+    <!-- Background y Mask solo para el footer -->
+    <div class="col-md-8">
+        <!-- Información del footer -->
+        <footer class="text-white" style="position: relative; z-index: 2; padding: 2rem;">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom text-white">
+                <div class="me-5 d-none d-lg-block">
+                    <span>Conéctate con nosotros en redes sociales:</span>
+                </div>
+                <div>
+                    <a href="" class="me-4 text-white"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="me-4 text-white"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="me-4 text-white"><i class="fab fa-google"></i></a>
+                    <a href="" class="me-4 text-white"><i class="fab fa-instagram"></i></a>
+                    <a href="" class="me-4 text-white"><i class="fab fa-linkedin"></i></a>
+                    <a href="" class="me-4 text-white"><i class="fab fa-github"></i></a>
+                </div>
+            </section>
+            <section>
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4"></i>CIBERTECH</h6>
+                            <p>Con años de experiencia, ofrecemos tecnología de vanguardia con un enfoque en calidad y atención personalizada.
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Productos</h6>
+                            <p><a href="#pc-gamer" class="text-white">Computadoras</a></p>
+                            <p><a href="#reparar-computadora" class="text-white">Arreglos</a></p>
+                            <p><a href="#controles-gamer" class="text-white">Controles</a></p>
+                            <p><a href="#silla" class="text-white">Sillas</a></p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Enlaces útiles</h6>
+                            <p><a href="#!" class="text-white">Precios</a></p>
+                            <p><a href="#!" class="text-white">Configuraciones</a></p>
+                            <p><a href="#!" class="text-white">Órdenes</a></p>
+                            <p><a href="#!" class="text-white">Ayuda</a></p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                            <p><i class="fas fa-home me-3"></i> Nueva York, NY 10012, US</p>
+                            <p><i class="fas fa-envelope me-3"></i> info@example.com</p>
+                            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+<!-- Formulario (parte derecha) -->
+<div class="col-md-4 d-flex align-items-end" style="padding: 3%; z-index: 2;">
+  <form action="{% url 'registrar_consulta' %}" method="post" style="background-color: rgba(255, 255, 255, 0.9); padding: 2rem; border-radius: 8px; width: 100vw; color: rgb(0, 0, 0);">
+      {% csrf_token %}
+      <div class="container-fluid p-0">
+          <div class="title mb-4">
+              <h2 style="color: rgb(8, 8, 8);">¡CONSULTA AQUI!</h2>
+          </div>
+          <div class="w-100">
+              <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                      <h3>Nombres</h3>
+                      <div class="form-outline mb-4">
+                          <input type="text" id="Nombre" name="Nombre" class="form-control" required= />
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                      <h3>Apellidos</h3>
+                      <div class="form-outline mb-4">
+                          <input type="text" id="Apellido" name="Apellido" class="form-control" required />
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                      <h3 >Tipo de Documento</h3>
+                      <div class="form-outline mb-4">
+                          <select id="Tipo_De_Documento" name="Tipo_De_Documento" class="form-control" required>
+                              <option value="">Seleccionar</option>
+                              <option value="CC">CC - Cédula de Ciudadanía</option>
+                              <option value="CE">CE - Cédula de Extranjería</option>
+                              <option value="TI">TI - Tarjeta de Identidad</option>
+                              <option value="PP">PP - Pasaporte</option>
+                              <option value="PPT">PPT - Permiso Protección Temporal</option>
+                              <option value="PEP">PEP - Permiso Especial de Permanencia</option>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                      <h3>Número de Documento</h3>
+                      <div class="form-outline mb-4">
+                          <input type="text" id="Numero_De_Documento" name="Numero_De_Documento" class="form-control" required />
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                      <h3>Celular</h3>
+                      <div class="form-outline mb-4">
+                          <input type="tel" id="Celular" name="Celular" class="form-control" required/>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                      <h3>Correo</h3>
+                      <div class="form-outline mb-4">
+                          <input type="email" id="Correo" name="Correo" class="form-control" required />
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                      <h3>Producto</h3>
+                      <div class="form-outline mb-4">
+                          <select id="Servicio" name="Servicio" class="form-control" required>
+                              <option value="">Seleccionar</option>
+                              <option value="pc-gamer">PC Gamer</option>
+                              <option value="reparar-computadora">Reparar Computadora</option>
+                              <option value="control-gamer">Controles Gamer</option>
+                              <option value="silla-gamer">Silla Gamer</option>
+                          </select>
+                      </div>
+                  </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block mb-4" style="background-color: rgba(233, 218, 3, 0.842); color: #000000;">ENVIAR</button>
+              <div id="registroMensaje" class="text-center mt-3" style="display: none;"></div>
+          </div>
+      </div>
+  </form>
+</div>
+
+<style>
+  /* Ajustes de la sección contacto */
+.contacto-row {
+    min-height: 100vh; /* Ocupar toda la altura de la ventana */
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Separar las columnas */
+}
+  .form-control {
+      background-color: #333333; /* Color gris oscuro */
+      color: #000000; /* Texto blanco */
+      padding: 1.25rem 0.75rem;
+      border: 1px solid #9d9d9e !important;
+      border-radius: 0.25rem;
+      font-size: 1.125rem;
+      width: 100%; /* Aumenta el ancho de los inputs */
+  }
+
+  .contacto p {
+      color: #ffffff !important; /* Texto blanco */
+  }
+  
+  .col-md-6 h3 {
+      color: #000000 !important; /* Títulos en blanco */
+  }
+</style>
+
+
+
+<script>
+function registrarUsuario() {
+  // Obtener valores de los campos
+  const nombres = document.getElementById('nombres').value.trim();
+  const apellidos = document.getElementById('apellidos').value.trim();
+  const tipoDocumento = document.getElementById('tipoDocumento').value;
+  const numDocumento = document.getElementById('numDocumento').value.trim();
+  const celular = document.getElementById('celular').value.trim();
+  const correo = document.getElementById('correo').value.trim();
+  const registroMensaje = document.getElementById('registroMensaje');
+  
+  // Validación
+  let isValid = true;
+  let mensaje = '';
+
+  if (!nombres || !apellidos) {
+    isValid = false;
+    mensaje += 'Nombres y apellidos son requeridos. ';
+  }
+  if (!tipoDocumento) {
+    isValid = false;
+    mensaje += 'Tipo de documento es requerido. ';
+  }
+  if (!numDocumento || isNaN(numDocumento)) {
+    isValid = false;
+    mensaje += 'Número de documento es requerido y debe ser numérico. ';
+  }
+  if (celular.length < 10 || isNaN(celular)) {
+    isValid = false;
+    mensaje += 'Celular debe tener al menos 10 dígitos y debe ser numérico. ';
+  }
+  if (!validateEmail(correo)) {
+    isValid = false;
+    mensaje += 'Correo electrónico no es válido. ';
+  }
+
+  // Mostrar mensaje de estado
+  if (isValid) {
+    registroMensaje.textContent = 'Registro exitoso.';
+    registroMensaje.style.color = 'green';
+  } else {
+    registroMensaje.textContent = mensaje;
+    registroMensaje.style.color = 'red';
+  }
+
+  registroMensaje.style.display = 'block';
+}
+
+function validateEmail(email) {
+  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regex.test(email);
+}
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.card');
+
+    const showCards = () => {
+        const windowHeight = window.innerHeight;
+
+        cards.forEach(card => {
+            const cardTop = card.getBoundingClientRect().top;
+
+            if (cardTop < windowHeight - 50) { // Ajusta el valor para que aparezcan antes o después
+                card.classList.add('visible');
+            }
+        });
+    };
+
+    window.addEventListener('scroll', showCards);
+    showCards(); // Llama a la función al cargar la página
+});
+
+</script>
+
+
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"
+></script>
+</body>
+</html>
